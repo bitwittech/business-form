@@ -21,7 +21,7 @@ app.use(express.static("public"));
 
 // Database Connection
 const db = mysql.createPool({
-  host: "https://bitwittech.com/",
+  host: "mysql.bitwittech.com/",
   user: "bitwittech_initial",
   password: "N}^hCgm9hu,4",
   database: "bitwittech_initial",
