@@ -21,10 +21,10 @@ app.use(express.static("public"));
 
 // Database Connection
 const db = mysql.createPool({
-  host: "mysql.bitwittech.com/",
-  user: "bitwittech_initial",
-  password: "N}^hCgm9hu,4",
-  database: "bitwittech_initial",
+  host: "mysql-2391957d-bitwitech-3173.e.aivencloud.com",
+  user: "avnadmin",
+  password: "AVNS_LXSW7GaxMmeyVyiOgLp",
+  database: "defaultdb",
 });
 
 // Updated Validators
