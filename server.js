@@ -5,9 +5,14 @@ const path = require("path");
 
 const app = express();
 
+// Serve static files from public folder
+app.use(express.static("public"));
+
+// Handle root route
 app.get("/", (req, res) => {
-  res.send("Server running 🎉");
+  res.sendFile(path.resolve("public/index.html"));
 });
+
 
 // Middleware
 app.use(express.json());
