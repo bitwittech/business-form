@@ -25,6 +25,7 @@ const db = mysql.createPool({
   user: "avnadmin",
   password: "AVNS_LXSW7GaxMmeyVyiOgLp",
   database: "defaultdb",
+  port: 23687,
 });
 
 // Updated Validators
